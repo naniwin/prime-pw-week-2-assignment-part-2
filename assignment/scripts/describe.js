@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We make a variable called name and set it to Dane.
+// We check if the name is Mary, then we console log 'Hi, Mary!'. 
+// The name is Dane, so we console log 'How do you do?'.
 //
 
 //CODE
@@ -45,9 +45,9 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We make 2 variables - secret and set it undefined, and code and set its value to 123.
+// We check if the code is 123, then secret is defined as 'super' and the code's value change by x2. The new value is 246.
+// We console log secret to define it by its conditions. It is defined as 'super'.
 //
 
 //CODE
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We start with 3 variables - isStudent and set it to true, age and set it to the value of 34, and zip and set it to the value of 55407.
+// We check if isStudent is true and the value of zip is greater than 80,000, but both statements are false.
+// Then, we check isStudent is false or the age is less than 34, but either are true.
+// If both conditions are false, we check if isStudent is true, then we console log 'Welcome to Prime!'.
 
 //CODE
 /*
@@ -130,11 +130,14 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// Fix - variables: colorOne to 'blue', and colorTwo to 'red'
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+// Fix - description to set new value for both colorOne and colorTwo to 'purple'.   
+// add in colorTwo = 'purple';
   colorOne = 'purple';
 }
 */
@@ -147,6 +150,8 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// Fix - the compound code is incorrect; it needs to have both conditions to be true.
+// Should be && instead of ||
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,8 +165,14 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// Fix - switch minAge and age around
+// should if(age <= minAge)
 if(minAge <= age) {
+// console.log needs to be switch.
+// should be console.log ('enter')  
   console.log('no entry');
+
+//should be console.log ('no entry') for false statement.
 } else {
   console.log('enter');
 }
